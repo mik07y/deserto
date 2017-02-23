@@ -15,7 +15,7 @@ import java.util.ArrayList;
 public abstract class CarroCantiere {
     private int npezzi;
     private Posizione pos;
-    private ArrayList<Pezzo> carro;
+    public ArrayList<Pezzo> carro;
     
     /**
      * Costruttore

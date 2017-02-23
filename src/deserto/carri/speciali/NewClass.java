@@ -3,12 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package deserto.carri;
+package deserto.carri.speciali;
 
 /**
  *
  * @author FSEVERI\bollettin3412
  */
-public class CarroCantiere {
+public class NewClass {
     
 }

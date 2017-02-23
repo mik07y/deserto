@@ -11,14 +11,14 @@ import static java.lang.Math.random;
  *
  * @author FSEVERI\bollettin3412
  */
-public class posizione {
+public class Posizione {
     private int x;
     private int y;
     
     /**
      * Costruttore
      */
-    public posizione (){
+    public Posizione (){
         x=(int) Math.random()*10;
         y=(int) Math.random()*10;
     }
@@ -50,7 +50,7 @@ public class posizione {
         if (getClass() != obj.getClass()) {
             return false;
         }
-        final posizione other = (posizione) obj;
+        final Posizione other = (Posizione) obj;
         if (this.x != other.x) {
             return false;
         }

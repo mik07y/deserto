@@ -38,6 +38,7 @@ public abstract class CarroCantiere {
      * @return True se distrutto, false altrimenti
     */
     public abstract boolean distrutto();
+    
     /**
      * Date le coordinate del colpo, restituisce un esito
      * @param pos Posizione dove si è sparato

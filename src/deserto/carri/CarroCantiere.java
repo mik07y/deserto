@@ -17,12 +17,31 @@ public abstract class CarroCantiere {
     private Posizione pos;
     private ArrayList<Pezzo> carro;
     
+    /**
+     * Costruttore
+     * @param pos Posizione carro
+     * @param npezzi Numero di pezzi da cui è composto il carro
+     */
     public CarroCantiere (Posizione pos, int npezzi){
         this.pos=pos;
         this.npezzi=npezzi;
         carro = new ArrayList<Pezzo>(npezzi);
     }
+    /**
+     * Stato del carro
+     * @return Stato del carro
+     */
     public abstract int stato();
+    
+    /**
+     * Controllo se distrutto o no
+     * @return True se distrutto, false altrimenti
+    */
     public abstract boolean distrutto();
-    public abstract void fuoco(Posizione pos);
+    /**
+     * Date le coordinate del colpo, restituisce un esito
+     * @param pos Posizione dove si è sparato
+     * @return Esito del colpo
+     */
+    public abstract String fuoco(Posizione pos);
 }

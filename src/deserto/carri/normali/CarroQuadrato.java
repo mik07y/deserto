@@ -9,6 +9,6 @@ package deserto.carri.normali;
  *
  * @author FSEVERI\bollettin3412
  */
-public class NewClass {
+public class CarroQuadrato {
     
 }

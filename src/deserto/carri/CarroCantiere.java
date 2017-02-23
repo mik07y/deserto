@@ -31,7 +31,7 @@ public abstract class CarroCantiere {
      * Stato del carro
      * @return Stato del carro
      */
-    public abstract int stato();
+    public abstract String stato();
     
     /**
      * Controllo se distrutto o no
